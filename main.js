@@ -29,7 +29,7 @@ random.addEventListener("click", randomGradient)
 
 auto.addEventListener("click", function() {
     interval = setInterval(randomGradient, 2000);
-})
-stop.onmousedown = function() {
+    stop.onmousedown = function() {
     clearInterval(interval)
 }
+})
